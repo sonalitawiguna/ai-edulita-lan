@@ -4,11 +4,11 @@
   "installCommand": "npm ci",
   "framework": "nextjs",
   "functions": {
-    "app/api/**/*.ts": {
-      "runtime": "vercel-nodejs@18.0.0",
-      "maxDuration": 30
-    }
-  },
+  "app/api/**/*.ts": {
+    "runtime": "vercel-node@18",
+    "maxDuration": 30
+  }
+},
   "env": {
     "GOOGLE_GENERATIVE_AI_API_KEY": "@google_generative_ai_api_key"
   },
