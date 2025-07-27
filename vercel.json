@@ -10,11 +10,11 @@
     }
   },
   "env": {
-    "GOOGLE_GENERATIVE_AI_API_KEY": "@GOOGLE_GENERATIVE_AI_API_KEY"
+    "GOOGLE_GENERATIVE_AI_API_KEY": "AIzaSyAxCdSmJKstgyxSq4AxoyY20QU5D-RYkGs"
   },
   "build": {
     "env": {
-      "GOOGLE_GENERATIVE_AI_API_KEY": "@GOOGLE_GENERATIVE_AI_API_KEY"
+      "GOOGLE_GENERATIVE_AI_API_KEY": "AIzaSyAxCdSmJKstgyxSq4AxoyY20QU5D-RYkGs"
     }
   },
   "headers": [
