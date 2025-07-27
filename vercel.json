@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
-  "installCommand": "npm install",
+  "installCommand": "npm ci",
   "framework": "nextjs",
   "functions": {
     "app/api/**/*.ts": {
@@ -10,11 +10,11 @@
     }
   },
   "env": {
-    "GOOGLE_GENERATIVE_AI_API_KEY": "@google_generative_ai_api_key"
+    "GOOGLE_GENERATIVE_AI_API_KEY": "@GOOGLE_GENERATIVE_AI_API_KEY"
   },
   "build": {
     "env": {
-      "GOOGLE_GENERATIVE_AI_API_KEY": "@google_generative_ai_api_key"
+      "GOOGLE_GENERATIVE_AI_API_KEY": "@GOOGLE_GENERATIVE_AI_API_KEY"
     }
   },
   "headers": [
