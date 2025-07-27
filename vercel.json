@@ -2,10 +2,17 @@
   "version": 2,
   "name": "ai-edulita-lan",
   "functions": {
-    "app/api/**/*.ts": {
+    "api/**/*.ts": {
+      "runtime": "nodejs20.x",
       "maxDuration": 30
     }
   },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/bin/www"
+    }
+  ],
   "env": {
     "GOOGLE_GENERATIVE_AI_API_KEY": "AIzaSyBHFApqA8-IK9GBZHdtQs9IsTTmp7LGorA",
     "NEXT_PUBLIC_SUPABASE_URL": "https://hafrebjyhcqyvgxyovgw.supabase.co",
