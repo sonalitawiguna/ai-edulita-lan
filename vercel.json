@@ -35,5 +35,18 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/dashboard/student",
+      "statusCode": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/app/api/$1"
+    }
   ]
 }
