@@ -5,16 +5,16 @@
   "framework": "nextjs",
   "functions": {
     "app/api/**/*.ts": {
-      "runtime": "nodejs20.x",
+      "runtime": "nodejs18.x",
       "maxDuration": 30
     }
   },
   "env": {
-    "GOOGLE_GENERATIVE_AI_API_KEY": "AIzaSyAxCdSmJKstgyxSq4AxoyY20QU5D-RYkGs"
+    "GOOGLE_GENERATIVE_AI_API_KEY": "@google_generative_ai_api_key"
   },
   "build": {
     "env": {
-      "GOOGLE_GENERATIVE_AI_API_KEY": "AIzaSyAxCdSmJKstgyxSq4AxoyY20QU5D-RYkGs"
+      "GOOGLE_GENERATIVE_AI_API_KEY": "@google_generative_ai_api_key"
     }
   },
   "headers": [
